@@ -1,4 +1,9 @@
-NOTE?2:	This signalling of the Access Restriction during the TAU after the inter-RAT handover procedure means that there is a small risk that NR resources are transiently allocated.
-The eNB, at which the S1-MME terminates, performs all necessary S1-MME related functions (as specified for any serving eNB) such as mobility management, relaying of NAS signalling, E-RAB handling, etc. and manages the handling of user plane connection of S1-U.
-Additional functional characteristics are:
--	CSG function may be supported in case the Secondary eNB is a hybrid access eNB (see more details in clause?5.4.7 and in TS?36.300?[5]).
+1	Scope
+The present document defines the Stage?2 service description for the Evolved 3GPP Packet Switched Domain - also known as the Evolved Packet System (EPS) in this document. The Evolved 3GPP Packet Switched Domain provides IP connectivity using the Evolved Universal Terrestrial Radio Access Network (E-UTRAN).
+The specification covers both roaming and non-roaming scenarios and covers all aspects, including mobility between E-UTRAN and pre-E-UTRAN 3GPP radio access technologies, policy control and charging, and authentication.
+The Radio Access Network functionality is documented only to the extent necessary to describe the overall system. TS?36.300?[5] contains the overall description of the Evolved Universal Terrestrial Radio Access (E-UTRA) and Evolved Universal Terrestrial Radio Access Network (E-UTRAN).
+ITU-T Recommendation I.130?[3] describes a three-stage method for characterisation of telecommunication services, and ITU-T Recommendation Q.65?[4] defines Stage?2 of the method.
+TS?23.402?[2] is a companion specification to this specification.
+An Evolved Packet System architecture optimised for the support of Cellular IoT (Internet of Things) applications is also defined in this document.
+The Evolved Packet System also provides support for the E-UTRAN to control a Dual Connectivity radio connection that uses a combination of E-UTRA and another radio access technology (e.g. NR). TS?36.300?[5] contains the overall description for Dual Connectivity.
+Enhancements to support interworking of EPS with 5GS are captured in TS?23.501?[83] and TS?23.502?[84].

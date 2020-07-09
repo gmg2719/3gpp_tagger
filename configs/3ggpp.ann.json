@@ -13,8 +13,28 @@
                   "part": "s1v1",
                   "offsets": [
                         {
-                              "start": 271,
-                              "text": "(as specified for any serving enb)"
+                              "start": 155,
+                              "text": "(eps)"
+                        }
+                  ],
+                  "coordinates": [],
+                  "confidence": {
+                        "state": "pre-added",
+                        "who": [
+                              "user:charan"
+                        ],
+                        "prob": 1
+                  },
+                  "fields": {},
+                  "normalizations": {}
+            },
+            {
+                  "classId": "e_2",
+                  "part": "s1v1",
+                  "offsets": [
+                        {
+                              "start": 305,
+                              "text": "(e-utran)"
                         }
                   ],
                   "coordinates": [],
@@ -33,8 +53,128 @@
                   "part": "s1v1",
                   "offsets": [
                         {
-                              "start": 207,
+                              "start": 306,
+                              "text": "E-UTRAN"
+                        }
+                  ],
+                  "coordinates": [],
+                  "confidence": {
+                        "state": "pre-added",
+                        "who": [
+                              "user:charan"
+                        ],
+                        "prob": 1
+                  },
+                  "fields": {},
+                  "normalizations": {}
+            },
+            {
+                  "classId": "e_1",
+                  "part": "s1v1",
+                  "offsets": [
+                        {
+                              "start": 447,
+                              "text": "E-UTRAN"
+                        }
+                  ],
+                  "coordinates": [],
+                  "confidence": {
+                        "state": "pre-added",
+                        "who": [
+                              "user:charan"
+                        ],
+                        "prob": 1
+                  },
+                  "fields": {},
+                  "normalizations": {}
+            },
+            {
+                  "classId": "e_2",
+                  "part": "s1v1",
+                  "offsets": [
+                        {
+                              "start": 811,
+                              "text": "(e-utran)"
+                        }
+                  ],
+                  "coordinates": [],
+                  "confidence": {
+                        "state": "pre-added",
+                        "who": [
+                              "user:charan"
+                        ],
+                        "prob": 1
+                  },
+                  "fields": {},
+                  "normalizations": {}
+            },
+            {
+                  "classId": "e_1",
+                  "part": "s1v1",
+                  "offsets": [
+                        {
+                              "start": 812,
+                              "text": "E-UTRAN"
+                        }
+                  ],
+                  "coordinates": [],
+                  "confidence": {
+                        "state": "pre-added",
+                        "who": [
+                              "user:charan"
+                        ],
+                        "prob": 1
+                  },
+                  "fields": {},
+                  "normalizations": {}
+            },
+            {
+                  "classId": "e_1",
+                  "part": "s1v1",
+                  "offsets": [
+                        {
+                              "start": 832,
                               "text": "MME"
+                        }
+                  ],
+                  "coordinates": [],
+                  "confidence": {
+                        "state": "pre-added",
+                        "who": [
+                              "user:charan"
+                        ],
+                        "prob": 1
+                  },
+                  "fields": {},
+                  "normalizations": {}
+            },
+            {
+                  "classId": "e_1",
+                  "part": "s1v1",
+                  "offsets": [
+                        {
+                              "start": 950,
+                              "text": "MME"
+                        }
+                  ],
+                  "coordinates": [],
+                  "confidence": {
+                        "state": "pre-added",
+                        "who": [
+                              "user:charan"
+                        ],
+                        "prob": 1
+                  },
+                  "fields": {},
+                  "normalizations": {}
+            },
+            {
+                  "classId": "e_2",
+                  "part": "s1v1",
+                  "offsets": [
+                        {
+                              "start": 1147,
+                              "text": "(internet of things)"
                         }
                   ],
                   "coordinates": [],
@@ -53,8 +193,88 @@
                   "part": "s1v1",
                   "offsets": [
                         {
-                              "start": 612,
+                              "start": 650,
                               "text": "ts 36.300 [5]"
+                        }
+                  ],
+                  "coordinates": [],
+                  "confidence": {
+                        "state": "pre-added",
+                        "who": [
+                              "user:charan"
+                        ],
+                        "prob": 1
+                  },
+                  "fields": {},
+                  "normalizations": {}
+            },
+            {
+                  "classId": "e_4",
+                  "part": "s1v1",
+                  "offsets": [
+                        {
+                              "start": 1001,
+                              "text": "ts 23.402 [2]"
+                        }
+                  ],
+                  "coordinates": [],
+                  "confidence": {
+                        "state": "pre-added",
+                        "who": [
+                              "user:charan"
+                        ],
+                        "prob": 1
+                  },
+                  "fields": {},
+                  "normalizations": {}
+            },
+            {
+                  "classId": "e_4",
+                  "part": "s1v1",
+                  "offsets": [
+                        {
+                              "start": 1408,
+                              "text": "ts 36.300 [5]"
+                        }
+                  ],
+                  "coordinates": [],
+                  "confidence": {
+                        "state": "pre-added",
+                        "who": [
+                              "user:charan"
+                        ],
+                        "prob": 1
+                  },
+                  "fields": {},
+                  "normalizations": {}
+            },
+            {
+                  "classId": "e_4",
+                  "part": "s1v1",
+                  "offsets": [
+                        {
+                              "start": 1547,
+                              "text": "ts 23.501 [83]"
+                        }
+                  ],
+                  "coordinates": [],
+                  "confidence": {
+                        "state": "pre-added",
+                        "who": [
+                              "user:charan"
+                        ],
+                        "prob": 1
+                  },
+                  "fields": {},
+                  "normalizations": {}
+            },
+            {
+                  "classId": "e_4",
+                  "part": "s1v1",
+                  "offsets": [
+                        {
+                              "start": 1566,
+                              "text": "ts 23.502 [84]"
                         }
                   ],
                   "coordinates": [],

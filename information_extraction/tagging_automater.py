@@ -24,7 +24,7 @@ class AutoTagProcessor:
         # sentence level logic
         for each_sentence in self.input.split("."):
             self.tag_sentence(each_sentence, index)
-            index = 1 + len(each_sentence)
+            index = index + 1 + len(each_sentence)
 
         # whole text level logic
         annotation_list = self.whole_tagger.process_sentence(self.input, 0)
@@ -48,9 +48,3 @@ class AutoTagProcessor:
         write_json_to_file(self.reference_json, output_ann_file)
         write_text_to_file(self.input, output_text_file)
         return output_text_file, output_ann_file
-
-
-if __name__ == '__main__':
-    auto_tag_processor = AutoTagProcessor(get_text_from_file(resolve_path_from_project_dir('configs/sample.txt')),
-                                          '3ggpp')
-    auto_tag_processor.tag_words()
