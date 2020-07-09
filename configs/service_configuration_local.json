@@ -1,48 +1,48 @@
 [
   {
     "api": "get_project_setting",
-    "endpoint": "https://www.tagtog.net/-api/settings/v1/export",
+    "endpoint": "https://10.31.13.24/-api/settings/v1/export",
     "params": {
-      "owner": "charantej",
-      "project": "tagging_project"
+      "owner": "zealpatel",
+      "project": "api_test"
     },
-    "username": "charantej",
-    "password": "Password*01"
+    "username": "zealpatel",
+    "password": "Abcd@1234"
   },
   {
     "api": "push_annotated_text",
-    "endpoint": "https://www.tagtog.net/-api/documents/v1",
+    "endpoint": "https://10.31.13.24/-api/documents/v1",
     "params": {
-      "owner": "charantej",
-      "project": "tagging_project",
+      "owner": "zealpatel",
+      "project": "api_test",
       "output": "null",
       "format": "default-plus-annjson"
     },
-    "username": "charantej",
-    "password": "Password*01"
+    "username": "zealpatel",
+    "password": "Abcd@1234"
   },
   {
     "api": "push_annotated_text_verbatim",
-    "endpoint": "https://www.tagtog.net/-api/documents/v1",
+    "endpoint": "https://10.31.13.24/-api/documents/v1",
     "params": {
-      "project": "tagging_project",
-      "owner": "charantej",
+      "project": "api_test",
+      "owner": "zealpatel",
       "format": "verbatim-plus-annjson",
       "output": "null"
     },
-    "username": "charantej",
-    "password": "Password*01"
+    "username": "zealpatel",
+    "password": "Abcd@1234"
   },
   {
     "api": "push_verbatim_text",
-    "endpoint": "https://www.tagtog.net/-api/documents/v1",
+    "endpoint": "https://10.31.13.24/-api/documents/v1",
     "params": {
-      "project": "tagging_project",
-      "owner": "charantej",
+      "project": "api_test",
+      "owner": "zealpatel",
       "format": "verbatim",
       "output": "null"
     },
-    "username": "charantej",
-    "password": "Password*01"
+    "username": "zealpatel",
+    "password": "Abcd@1234"
   }
 ]

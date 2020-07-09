@@ -14,7 +14,7 @@ class SettingService:
         self.environment = environment
 
     def get_project_setting(self):
-        service = get_service_config('push_annotated_text', self.environment)
+        service = get_service_config('get_project_setting', self.environment)
         service_auth, service_params, service_endpoint = get_auth_params(service)
         result = requests.get(url=service_endpoint, params=service_params,
                               auth=service_auth, verify=self.ssl_verify)
